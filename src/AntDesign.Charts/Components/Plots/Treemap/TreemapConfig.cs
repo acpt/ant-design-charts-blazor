@@ -8,6 +8,10 @@ namespace AntDesign.Charts
 {
     public class TreemapConfig : ITreemapViewConfig, IPlotConfig
     {
+
+        [JsonPropertyName("slider")]
+        public Slider slider { get; set; }
+
         [JsonPropertyName("data")]
         public object Data { get; set; }
         [JsonPropertyName("maxLevel")]

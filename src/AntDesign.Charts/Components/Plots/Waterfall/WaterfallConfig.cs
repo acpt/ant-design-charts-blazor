@@ -58,6 +58,10 @@ namespace AntDesign.Charts
         public OneOf<string, object> ResponsiveTheme { get; set; }
         [JsonPropertyName("responsiveTheme")]
         public object ResponsiveThemeMapping => ResponsiveTheme.Value;
+
+        [JsonPropertyName("slider")]
+        public Slider slider { get; set; }
+
         [JsonPropertyName("interactions")]
         public Interaction[] Interactions { get; set; }
         [JsonPropertyName("responsive")]

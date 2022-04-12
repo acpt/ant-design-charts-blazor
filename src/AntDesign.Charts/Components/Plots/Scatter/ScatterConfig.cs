@@ -8,6 +8,10 @@ namespace AntDesign.Charts
 {
     public class ScatterConfig : IScatterViewConfig, IPlotConfig
     {
+
+        [JsonPropertyName("slider")]
+        public Slider slider { get; set; }
+
         [JsonIgnore]
         public OneOf<int?, int[], object> PointSize { get; set; }
         [JsonPropertyName("pointSize")]

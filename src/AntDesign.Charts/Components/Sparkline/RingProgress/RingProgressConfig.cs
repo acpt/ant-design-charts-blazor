@@ -9,6 +9,10 @@ namespace AntDesign.Charts
     using IRingProgressViewConfig = IProgressViewConfig;
     public class RingProgressConfig : IRingProgressViewConfig, IPlotConfig
     {
+
+        [JsonPropertyName("slider")]
+        public Slider slider { get; set; }
+
         [JsonPropertyName("progressStyle")]
         public GraphicStyle ProgressStyle { get; set; }
         [JsonPropertyName("percent")]

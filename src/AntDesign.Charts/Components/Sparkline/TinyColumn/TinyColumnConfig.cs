@@ -8,6 +8,10 @@ namespace AntDesign.Charts
 {
     public class TinyColumnConfig : ITinyColumnLayerConfig, IPlotConfig
     {
+
+        [JsonPropertyName("slider")]
+        public Slider slider { get; set; }
+
         [JsonPropertyName("columnStyle")]
         public object ColumnStyle { get; set; }
         [JsonPropertyName("indicator")]

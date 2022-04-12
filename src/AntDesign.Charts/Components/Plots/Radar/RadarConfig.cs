@@ -8,6 +8,10 @@ namespace AntDesign.Charts
 {
     public class RadarConfig : IRadarViewConfig, IPlotConfig
     {
+
+        [JsonPropertyName("slider")]
+        public Slider slider { get; set; }
+
         [JsonPropertyName("seriesField")]
         public string SeriesField { get; set; }
         [JsonPropertyName("smooth")]

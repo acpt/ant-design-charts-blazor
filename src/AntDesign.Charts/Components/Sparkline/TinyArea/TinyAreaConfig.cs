@@ -8,6 +8,10 @@ namespace AntDesign.Charts
 {
     public class TinyAreaConfig : ITinyAreaViewConfig, IPlotConfig
     {
+
+        [JsonPropertyName("slider")]
+        public Slider slider { get; set; }
+
         [JsonPropertyName("areaStyle")]
         public object AreaStyle { get; set; }
         [JsonPropertyName("lineStyle")]

@@ -5,6 +5,10 @@ namespace AntDesign.Charts
 {
     public class BarConfig : IBarViewConfig, IPlotConfig
     {
+
+        [JsonPropertyName("slider")]
+        public Slider slider { get; set; }
+
         [JsonPropertyName("colorField")]
         public string ColorField { get; set; }
         [JsonPropertyName("barSize")]

@@ -8,6 +8,10 @@ namespace AntDesign.Charts
 {
     public class LiquidConfig : ILiquidViewConfig, IPlotConfig
     {
+
+        [JsonPropertyName("slider")]
+        public Slider slider { get; set; }
+
         [JsonPropertyName("statistic")]
         public LiquidStatisticStyle Statistic { get; set; }
         [JsonPropertyName("liquidSize")]

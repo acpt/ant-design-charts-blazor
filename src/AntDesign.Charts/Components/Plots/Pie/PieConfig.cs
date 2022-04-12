@@ -8,6 +8,10 @@ namespace AntDesign.Charts
 {
     public class PieConfig : IPieViewConfig, IPlotConfig
     {
+
+        [JsonPropertyName("slider")]
+        public Slider slider { get; set; }
+
         [JsonPropertyName("angleField")]
         public string AngleField { get; set; }
         [JsonPropertyName("colorField")]

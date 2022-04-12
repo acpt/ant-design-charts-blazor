@@ -5,6 +5,10 @@ namespace AntDesign.Charts
 {
     public class AreaConfig : IAreaViewConfig, IPlotConfig
     {
+
+        [JsonPropertyName("slider")]
+        public Slider slider { get; set; }
+
         [JsonPropertyName("areaStyle")]
         public GraphicStyle AreaStyle { get; set; }
         [JsonPropertyName("seriesField")]

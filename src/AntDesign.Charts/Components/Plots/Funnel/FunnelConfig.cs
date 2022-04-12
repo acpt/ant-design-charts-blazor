@@ -8,6 +8,10 @@ namespace AntDesign.Charts
 {
     public class FunnelConfig : IFunnelViewConfig, IPlotConfig
     {
+
+        [JsonPropertyName("slider")]
+        public Slider slider { get; set; }
+
         [JsonPropertyName("funnelStyle")]
         public object FunnelStyle { get; set; }
         [JsonPropertyName("percentage")]

@@ -8,6 +8,10 @@ namespace AntDesign.Charts
 {
     public class HeatmapConfig : IHeatmapLayerConfig, IPlotConfig
     {
+
+        [JsonPropertyName("slider")]
+        public Slider slider { get; set; }
+
         [JsonPropertyName("sizeField")]
         public string SizeField { get; set; }
         [JsonPropertyName("colorField")]

@@ -9,6 +9,9 @@ namespace AntDesign.Charts
     public class RoseConfig : IRoseViewConfig, IPlotConfig
     {
 
+        [JsonPropertyName("slider")]
+        public Slider slider { get; set; }
+
         [JsonPropertyName("radius")]
         public double? Radius { get; set; }
         [JsonPropertyName("innerRadius")]

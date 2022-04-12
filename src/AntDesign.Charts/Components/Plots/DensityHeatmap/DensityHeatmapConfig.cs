@@ -8,6 +8,10 @@ namespace AntDesign.Charts
 {
     public class DensityHeatmapConfig : IDensityHeatmapViewConfig, IPlotConfig
     {
+
+        [JsonPropertyName("slider")]
+        public Slider slider { get; set; }
+
         [JsonPropertyName("colorField")]
         public string ColorField { get; set; }
         [JsonPropertyName("radius")]

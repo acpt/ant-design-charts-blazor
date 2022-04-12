@@ -8,6 +8,10 @@ namespace AntDesign.Charts
 {
     public class ProgressConfig : IProgressViewConfig, IPlotConfig
     {
+
+        [JsonPropertyName("slider")]
+        public Slider slider { get; set; }
+
         [JsonPropertyName("progressStyle")]
         public GraphicStyle ProgressStyle { get; set; }
         [JsonPropertyName("percent")]

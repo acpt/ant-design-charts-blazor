@@ -23,6 +23,10 @@ namespace AntDesign.Charts
         public ValueCatTimeAxis XAxis { get; set; }
         [JsonPropertyName("yAxis")]
         public ValueAxis YAxis { get; set; }
+
+        [JsonPropertyName("slider")]
+        public Slider slider { get; set; }
+
         [JsonPropertyName("interactions")]
         public Interaction[] Interactions { get; set; }
         [JsonPropertyName("renderer")]
@@ -143,6 +147,10 @@ namespace AntDesign.Charts
         public ValueCatTimeAxis XAxis { get; set; }//OneOf <IValueAxis, ICatAxis, ITimeAxis>
         [JsonPropertyName("yAxis")]
         public ValueAxis YAxis { get; set; }
+
+        [JsonPropertyName("slider")]
+        public Slider slider { get; set; }
+
         [JsonPropertyName("interactions")]
         public Interaction[] Interactions { get; set; }
         /*

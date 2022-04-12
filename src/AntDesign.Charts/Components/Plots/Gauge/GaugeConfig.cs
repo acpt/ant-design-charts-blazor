@@ -8,6 +8,10 @@ namespace AntDesign.Charts
 {
     public class GaugeConfig : IGaugeLayerConfig, IPlotConfig
     {
+
+        [JsonPropertyName("slider")]
+        public Slider slider { get; set; }
+
         [JsonPropertyName("startAngle")]
         public int? StartAngle { get; set; }
         [JsonPropertyName("endAngle")]

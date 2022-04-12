@@ -10,6 +10,10 @@ namespace AntDesign.Charts
 {
     public class DualAxesConfig : IDualAxesViewConfig, IPlotConfig
     {
+
+        [JsonPropertyName("slider")]
+        public Slider slider { get; set; }
+
         [JsonPropertyName("xAxis")]
         public ValueCatTimeAxis XAxis { get; set; }
         [JsonPropertyName("tooltip")]

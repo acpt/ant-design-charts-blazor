@@ -3,6 +3,8 @@
 	<PropertyGroup>
 		<TargetFrameworks>net5.0;netstandard2.1</TargetFrameworks>
 		<RazorLangVersion>3.0</RazorLangVersion>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Version>2.2.1</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
