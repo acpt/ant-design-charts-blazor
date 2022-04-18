@@ -1,3 +1,5 @@
+Simple test correction for slider to work 
+
 # ant-design-charts-blazor
 A Blazor chart library, based on G2Plot
 
