@@ -68,6 +68,12 @@ English | [简体中文](README-zh_CN.md)
           xField = "year",
           yField = "value",
           smooth = true,
+          
+          slider = new Slider {
+            Start = 0.5,
+            End = 0.8
+        } 
+        
       };
   }
   ```
